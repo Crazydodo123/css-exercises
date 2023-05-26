@@ -5,13 +5,30 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 5px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 10px;
 }
 
+.plants {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 1400px;
+  gap: 30px;
+  text-align: center;
+}
+
+.plant {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
